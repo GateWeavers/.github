@@ -2,7 +2,7 @@
 
 > **Modernizing VHDL & FPGA Engineering through Hermetic Build Systems and Modular IP Cores.**
 
-GateWeavers develops open-source tools based on bazel and VHDL IP cores designed to bring software engineering best practices—such as CI/CD, hermetic integration, and dependency management—to the digital hardware world.
+GateWeavers develops open-source tools based on bazel and VHDL IP cores designed to bring software engineering best practices such as CI/CD, hermetic integration, and dependency management to the digital hardware world.
 
 ---
 
