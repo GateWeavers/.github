@@ -12,20 +12,20 @@ We focus on hardware build reproducibility, VHDL simulation automation, and modu
 
 ### Build Tools & Rules
 
-* **[`gateweavers_rules_vhdl`](https://github.com/GateWeavers/gateweavers_rules_vhdl)**  
+* **[`gateweavers_rules_vhdl`](https://github.com/GateWeavers/rules_vhdl)**  
   Bazel rules for hardware development. Handles compilation, hermetic simulation (**GHDL**, **NVC**, **VUnit**), for VHDL projects with zero complex global toolchain configuration.
 
-* **[`gateweavers_rules_fpga`](https://github.com/GateWeavers/gateweavers_rules_fpga)**  
+* **[`gateweavers_rules_fpga`](https://github.com/GateWeavers/rules_fpga)**  
   Bazel rules for fpga development to manage synthesis and implementation toolchain from several vendors. **WIP**
 
 ### IP Core Registry (BCR)
 
-* **[`gateweavers-ip-registry`](https://github.com/GateWeavers/gateweavers-ip-registry)**  
+* **[`gateweavers-ip-registry`](https://github.com/GateWeavers/ip-registry)**  
   The official GateWeavers public Bazel Central Registry (BCR). It hosts our ready-to-use IP cores, allowing single-line integration into any FPGA project.
 
 ### IP Cores (VHDL)
 
-* **[`spacewire`](https://github.com/GateWeavers/spacewire)**  
+* **[`spacewire`](https://github.com/GateWeavers/spacewire-ip)**  
   VHDL core for the high-speed **SpaceWire** communication protocol (ECSS-E-ST-50-52C), packaged and Bzlmod-ready out of the box. **WIP**
 * **`axi_lib`** *(and more to come)*  
   Standard axi lite and axi stream library using vhdl2008 or vhdl2019 interfaces as an option. **WIP**
